@@ -102,19 +102,60 @@ export default function HomePage() {
               className="w-16 h-16 rounded-full object-cover bg-[#efe5d1]"
             />
 
-            <div className="flex flex-col leading-none">
-              <div className="text-xl tracking-[0.2em] font-serif">
-                GIDGEE MALLEE
-              </div>
+            <nav className="bg-[#1c2614] text-stone-100 border-b border-[#6f7b3a]/40">
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    
+    <div className="flex items-center gap-4">
+      <img
+        src="/images/logo.png"
+        alt="Gidgee Mallee Enterprises logo"
+        className="w-16 h-16 rounded-full object-cover bg-[#efe5d1]"
+      />
 
-              <div className="flex justify-center">
-                <div className="text-[10px] tracking-[0.38em] text-stone-300 mt-1">
-                  ENTERPRISES
-                </div>
-              </div>
-            </div>
+      <div className="flex flex-col leading-none">
+        <div className="text-xl tracking-[0.2em] font-serif">
+          GIDGEE MALLEE
+        </div>
+
+        <div className="flex justify-center w-full">
+          <div className="text-[10px] tracking-[0.38em] text-stone-300 mt-1">
+            ENTERPRISES
           </div>
+        </div>
+      </div>
+    </div>
 
+    <div className="hidden lg:flex items-center gap-8 text-xs uppercase tracking-[0.16em]">
+      <a className="text-[#aabf56]" href="#home">
+        Home
+      </a>
+
+      <a className="hover:text-[#aabf56]" href="#services">
+        Services
+      </a>
+
+      <a className="hover:text-[#aabf56]" href="#capability">
+        Capability
+      </a>
+
+      <a className="hover:text-[#aabf56]" href="#about">
+        About
+      </a>
+
+      <a className="hover:text-[#aabf56]" href="#contact">
+        Contact
+      </a>
+    </div>
+
+    <a
+      href="#contact"
+      className="hidden md:block border border-stone-300/70 px-6 py-3 text-xs uppercase tracking-[0.16em] hover:bg-[#aabf56] hover:text-[#1c2614]"
+    >
+      Get in Touch
+    </a>
+
+  </div>
+</nav>
           <div className="hidden lg:flex items-center gap-8 text-xs uppercase tracking-[0.16em]">
             <a className="text-[#aabf56]" href="#home">
               Home
