@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #efe5d1;
+  --foreground: #1f2417;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.torn-bottom {
+  position: relative;
+}
+
+.torn-bottom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 72px;
+  background: #efe5d1;
+  z-index: 30;
+  clip-path: polygon(
+    0 46%, 2% 50%, 4% 47%, 6% 52%, 8% 48%, 10% 51%,
+    13% 45%, 16% 53%, 19% 49%, 22% 54%, 25% 47%,
+    29% 52%, 33% 46%, 37% 50%, 41% 48%, 45% 53%,
+    49% 47%, 53% 51%, 57% 46%, 61% 52%, 65% 49%,
+    69% 54%, 73% 48%, 77% 52%, 81% 47%, 85% 51%,
+    89% 46%, 93% 52%, 97% 48%, 100% 50%,
+    100% 100%, 0 100%
+  );
+}
+
+.torn-bottom::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 34px;
+  height: 18px;
+  background: rgba(239, 229, 209, 0.45);
+  z-index: 29;
+  clip-path: polygon(
+    0 52%, 5% 58%, 11% 50%, 18% 56%, 24% 51%,
+    31% 59%, 38% 52%, 45% 57%, 52% 50%, 59% 56%,
+    66% 52%, 73% 58%, 80% 51%, 87% 57%, 94% 50%,
+    100% 55%, 100% 100%, 0 100%
+  );
+}
+
+.torn-dark-bottom {
+  position: relative;
+}
+
+.torn-dark-bottom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 72px;
+  background: #1c2614;
+  z-index: 30;
+  clip-path: polygon(
+    0 48%, 3% 53%, 6% 47%, 9% 55%, 12% 50%,
+    16% 54%, 20% 46%, 24% 52%, 28% 49%, 32% 55%,
+    36% 47%, 40% 52%, 44% 48%, 48% 54%, 52% 49%,
+    56% 53%, 60% 47%, 64% 55%, 68% 50%, 72% 54%,
+    76% 46%, 80% 52%, 84% 49%, 88% 55%, 92% 48%,
+    96% 53%, 100% 49%, 100% 100%, 0 100%
+  );
+}
