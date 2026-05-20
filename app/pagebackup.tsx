@@ -128,7 +128,7 @@ export default function HomePage() {
             <a className="hover:text-[#aabf56]" href="#about">
               About
             </a>
-            <a className="hover:text-[#aabf56]" href="/profile">
+            <a className="hover:text-[#aabf56]" href="#contact">
               Contact
             </a>
           </div>
