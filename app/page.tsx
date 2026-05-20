@@ -3,7 +3,7 @@ export default function HomePage() {
     {
       title: "Ecological Surveys & Monitoring",
       text: "Targeted fauna surveys, habitat assessments, biodiversity monitoring and field validation, with specialist strength in reptiles, amphibians and difficult-to-detect species.",
-      image: "/images/service-surveys.jpg",
+      image: "/images/service-surveys-NEW.jpg",
     },
     {
       title: "Wetland & Habitat Management",
@@ -18,7 +18,7 @@ export default function HomePage() {
     {
       title: "Remote Field Operations",
       text: "Reliable support for difficult-access projects, including 4WD logistics, remote area fieldwork, vessel operations, monitoring support and practical problem solving.",
-      image: "/images/service-remote.jpg",
+      image: "/images/service-remote-NEW.jpg",
     },
   ];
 
