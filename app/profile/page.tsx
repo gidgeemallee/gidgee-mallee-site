@@ -1,29 +1,29 @@
 export default function ProfilePage() {
   const strengths = [
     "Ecological surveys, field validation and biodiversity monitoring",
-    "Specialist interest in reptiles, amphibians, wetlands and threatened species habitat",
+    "Reptiles, amphibians, wetlands and threatened species habitat",
     "Public land, parks, reserves and sensitive-site operations",
     "Remote area logistics, 4WD fieldwork and vessel-based capability",
     "Pest plant and animal control in environmentally sensitive areas",
-    "Clear field documentation, reporting and professional environmental photography",
+    "Clear field documentation, reporting and environmental photography",
   ];
 
   const experience = [
     {
       title: "Ecological Field Practice",
-      text: "Jeremy brings practical field experience across ecological surveys, habitat assessment, species monitoring and environmental land management. His work is grounded in careful observation, strong field craft and a practical understanding of how landscapes function.",
+      text: "Jeremy brings practical field experience across ecological surveys, habitat assessment, species monitoring and environmental land management. His work is grounded in careful observation, field craft and a practical understanding of how landscapes function.",
     },
     {
-      title: "Public Land & Operational Background",
+      title: "Public Land & Operations",
       text: "With a background in parks and public land management, Jeremy understands the operational realities of working in reserves, wetlands, coastal landscapes, forests and high-value conservation areas.",
     },
     {
-      title: "Threatened Species & Habitat Focus",
+      title: "Threatened Species & Habitat",
       text: "Jeremy has a strong interest in threatened species management, particularly where field-based knowledge, habitat interpretation and practical land management need to come together.",
     },
     {
-      title: "Remote & Difficult-Access Work",
-      text: "Gidgee Mallee Enterprises is built around practical capability in the field, including remote-area access, 4WD logistics, boat-based work, sensitive-site operations and problem solving in challenging conditions.",
+      title: "Remote Field Capability",
+      text: "Gidgee Mallee Enterprises is built around practical field capability, including remote-area access, 4WD logistics, vessel-based work, sensitive-site operations and problem solving in challenging conditions.",
     },
   ];
 
@@ -42,6 +42,7 @@ export default function ProfilePage() {
               <div className="text-xl tracking-[0.2em] font-serif">
                 GIDGEE MALLEE
               </div>
+
               <div className="w-full text-center">
                 <span className="text-[10px] tracking-[0.38em] text-stone-300 mt-1 inline-block">
                   ENTERPRISES
@@ -79,7 +80,7 @@ export default function ProfilePage() {
 
       <section
         className="relative min-h-[620px] bg-cover bg-center overflow-hidden"
-        style={{ backgroundImage: "url('/images/profile-hero.jpg')" }}
+        style={{ backgroundImage: "url('/images/hero.jpg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-black/70" />
 
@@ -194,7 +195,7 @@ export default function ProfilePage() {
 
           <div
             className="min-h-[420px] bg-cover bg-center shadow-2xl"
-            style={{ backgroundImage: "url('/images/profile-field.jpg')" }}
+            style={{ backgroundImage: "url('/images/service-surveys-NEW.jpg')" }}
           />
         </div>
       </section>

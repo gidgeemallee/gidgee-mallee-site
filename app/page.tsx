@@ -95,7 +95,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-[#efe5d1] text-[#1f2417]">
       <nav className="bg-[#1c2614] text-stone-100 border-b border-[#6f7b3a]/40">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-4">
+          <a href="/" className="flex items-center gap-4">
             <img
               src="/images/logo.png"
               alt="Gidgee Mallee Enterprises logo"
@@ -113,7 +113,7 @@ export default function HomePage() {
                 </span>
               </div>
             </div>
-          </div>
+          </a>
 
           <div className="hidden lg:flex items-center gap-8 text-xs uppercase tracking-[0.16em]">
             <a className="text-[#aabf56]" href="#home">
@@ -129,6 +129,9 @@ export default function HomePage() {
               About
             </a>
             <a className="hover:text-[#aabf56]" href="/profile">
+              Profile
+            </a>
+            <a className="hover:text-[#aabf56]" href="#contact">
               Contact
             </a>
           </div>
@@ -346,8 +349,8 @@ export default function HomePage() {
             </p>
 
             <a
-              href="#contact"
-              className="inline-block border border-[#aabf56] px-5 py-3 uppercase text-xs tracking-[0.15em] text-[#d1df84]"
+              href="/profile"
+              className="inline-block border border-[#aabf56] px-5 py-3 uppercase text-xs tracking-[0.15em] text-[#d1df84] hover:bg-[#aabf56] hover:text-[#1c2614] transition"
             >
               Learn More →
             </a>
@@ -447,6 +450,7 @@ export default function HomePage() {
               <a
                 href="https://www.flickr.com/photos/152336187@N08/albums/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block text-center border border-stone-400/40 px-5 py-3 uppercase text-xs tracking-[0.15em] text-stone-200 hover:bg-stone-100 hover:text-[#1c2614] transition"
               >
                 View Flickr Portfolio →
